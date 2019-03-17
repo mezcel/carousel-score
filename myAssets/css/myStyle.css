@@ -1,0 +1,106 @@
+/* styles specific to this html file */
+#stationLabel{
+	background-color: white;
+	transition:background-color 0.5s ease;
+}
+		
+button {
+    border-radius: 25px;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.scriptureContainer {
+    padding: 5px;
+    border: solid;
+    border-width: 5px;
+    border-color: gray;
+}
+
+.soundstemContainer {
+    border: solid;
+    border-color: white;
+}
+
+.titleHeader {
+    text-align: center;
+    border-bottom: 0px;
+}
+
+#soundClips {
+    overflow: auto;
+}
+
+#mediaCredits {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /*border-bottom: 1px solid rgb(105, 105, 105);*/
+}
+
+#myCarousel {
+    border: solid;
+    border-width: 5px;
+    border-color: gray;
+}
+
+ol {
+    background-color: gray;
+    padding: 5px;
+}
+
+p {
+    background-color: #fff7e6;
+}
+
+.colorTransition {
+	background: "#FFF9CE";
+}
+
+.transitionText {
+	color: black;
+}
+
+#btnPower {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+@media screen and (min-height: 1300px) {
+    /* Asus T-100: Portrait Height 1366px */
+    .mystery {
+        /* 2550 × 3300 */
+        /* background-image: url("https://thekidsbulletin.files.wordpress.com/2012/03/colour-stations.jpg"); */
+        background-image: url("../img/colour-stations.jpg");
+        width: 550px;
+        height: 690px;
+        filter: grayscale(90%);
+        filter: invert(70%);
+    }
+}
+
+@media screen and (max-height: 1300px) {
+    /* Asus T-100: Landscape Height 768px */
+    .mystery {
+        /* 564 x 729 */
+        background-image:
+        /* url("https://s-media-cache-ak0.pinimg.com/564x/29/a5/ac/29a5acccb170d6ad2f8daeb6acbade41.jpg"); */
+        url("../img/29a5acccb170d6ad2f8daeb6acbade41.jpg");
+        width: 119px;
+        height: 152px;
+        filter: grayscale(90%);
+        filter: invert(70%);
+    }
+}
