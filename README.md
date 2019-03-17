@@ -1,6 +1,17 @@
-# Stations of the Cross: Bootstrap Carousel Audio E-booklet
+# carousel-score
 
-```version: v0.1.2``` (minor audio and visual updates and Bootstrap workaround fix)
+An audio drama booklet using Bootstrap 3 Carousel, html5 audio, and an automated sound mixer sequence script.
+
+This app is a DOM based Stations of the Cross.
+
+```version: v0.1.2``` (this project was revisited after over a year of being stale)
+
+* Minor cosmetic tweaks. Flushed old repo and reuploaded
+* Updates to .mp3 stems
+* Updated to the newest Bootstrap 3
+* New file paths
+* Subltle color change upon station progress
+* Modified the mixer automations within json script
 
 ## About:
 
